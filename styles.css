@@ -28,6 +28,8 @@ body {
     font-size: 12px;
     padding: 0 10px;
     margin: 10px 0 0 0;
+    height: 14px;
+
 }
 
 #current-calculation {
@@ -36,6 +38,7 @@ body {
     font-weight: bold;
     padding: 0 10px;
     margin: 10px 0;
+    height: 20px;
 }
 
 .row {
@@ -55,12 +58,21 @@ body {
     background-color: #000;
 }
 
+.white-active:active {
+    background-color: #fff;
+    color:#000;
+}
+
 .operator {
     background-color:#252525
 }
 
 .functional {
     background-color: #3d0900;
+}
+
+.clear {
+    width: 101px;
 }
 
 .equals {
